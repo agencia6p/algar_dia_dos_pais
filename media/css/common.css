@@ -1,0 +1,714 @@
+/***
+** file: common.css
+** author: 6P Comunicação e Marketing | Tiago Colucci 
+***/
+
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+	outline: none;
+	list-style: none;
+	border: none;
+	box-shadow: none!important;
+	text-shadow: none!important;
+}
+
+@font-face {
+	font-family: 'gil';
+	src: url('GillSansMTPro-Medium.eot');
+	src: url('GillSansMTPro-Medium.eot?#iefix') format('embedded-opentype'), url('GillSansMTPro-Medium.woff2') format('woff2'), url('GillSansMTPro-Medium.woff') format('woff'), url('GillSansMTPro-Medium.ttf') format('truetype'), url('GillSansMTPro-Medium.svg#GillSansMTPro-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gilBold';
+	src: url('GillSans-Bold.eot');
+	src: url('GillSans-Bold.eot?#iefix') format('embedded-opentype'), url('GillSans-Bold.woff2') format('woff2'), url('GillSans-Bold.woff') format('woff'), url('GillSans-Bold.ttf') format('truetype'), url('GillSans-Bold.svg#GillSans-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	height: 100%!important;
+	display: block;
+}
+
+body {
+	height: 100%!important;
+	text-shadow: none!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal!important;
+	font-style: normal!important;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.yellow {
+	color: #ffcb08 !important;
+}
+
+form p {
+	margin-bottom: 15px;
+	font-family: 'gil';
+	text-shadow: none!important;
+	font-size: 18px;
+	color: #6d6d6d;
+}
+
+a {
+	text-decoration: none!important;
+	text-shadow: none!important;
+	box-shadow: none!important;
+}
+
+i {
+	display: block;
+	float: left;
+}
+
+strong {
+	text-shadow: none!important
+}
+
+figure {
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.none {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.noneIm {
+	display: none!important;
+}
+
+.replace {
+	overflow: hidden;
+	text-indent: -989898px;
+	white-space: nowrap;
+}
+
+::-moz-selection {
+	background: #fff;
+	color: #981b1e;
+	text-shadow: none;
+}
+
+::selection {
+	background: #fff;
+	color: #981b1e;
+	text-shadow: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+form fieldset {
+	border: none;
+	padding: 0;
+}
+
+::-webkit-input-placeholder {
+	color: #6d6d6d;
+	font-size: 16px;
+	font-family: 'gil';
+}
+
+:-moz-placeholder {
+	color: #6d6d6d;
+	font-size: 16px;
+	font-family: 'gil';
+}
+
+::-moz-placeholder {
+	color: #6d6d6d;
+	font-size: 16px;
+	font-family: 'gil';
+}
+
+:-ms-input-placeholder {
+	color: #6d6d6d;
+	font-size: 16px;
+	font-family: 'gil';
+}
+
+main {
+	text-shadow: none!important;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 90!important;
+}
+
+h2 {
+	font-family: "gilBold";
+	font-size: 25px;
+	width: 307px;
+	line-height: 30px;
+	margin-top: 17px;
+}
+
+main p {
+	margin-top: 15px;
+	max-width: 394px;
+}
+
+.rounded {
+	border-radius: 10px;
+}
+
+.white-bg {
+	background-color: white;
+}
+
+/* .col-md-3 {
+	margin-top: -450px;
+	margin-left: 190px;
+	padding-left: 0!important;
+	margin-right: 0!important;
+	padding-right: 0!important;
+} */
+
+form div {
+	margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+	background: none;
+	padding: 7px 0;
+	height: 30px;
+	display: block;
+	width: 100%;
+	font-family: 'gil';
+	font-size: 18px;
+	color: #6d6d6d;
+	resize: none;
+	border-bottom: solid 1px #6d6d6d;
+}
+
+textarea {
+	height: 50px;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	float: left!important;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+	border-radius: 50%;
+	border: solid 1px #6d6d6d;
+	margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+	background: #ccc;
+}
+
+#labelReg {
+	font-family: 'gil';
+	font-size: 12px;
+	color: #6d6d6d;
+	font-weight: normal!important;
+	font-style: normal!important;
+}
+
+#labelReg a {
+	text-decoration: underline!important;
+	color: #6d6d6d;
+	font-weight: bold;
+}
+
+input[type='file'] {
+	display: none;
+}
+
+#limite {
+	font-size: 12px;
+	margin-top: -10px;
+}
+
+#nomeArquivo {
+	width: 140px;
+	height: 32px;
+	display: block;
+	border-radius: 10px;
+	border: solid 1px #a2a2a2;
+	text-align: center;
+	text-transform: uppercase;
+	color: #6d6d6d;
+	font-family: "gilBold";
+	cursor: pointer;
+	line-height: 30px;
+	margin-right: 10px;
+}
+
+form div img.pull-left {
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+button {
+	display: block;
+	width: 100%;
+	height: 32px;
+	border-radius: 10px!important;
+	line-height: 30px;
+	background: #d2d50f;
+	font-size: 13px!important;
+	font-family: "gilBold";
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 10px;
+	-webkit-transition: all 0.1s ease-in 0s;
+	-moz-transition: all 0.1s ease-in 0s;
+	-o-transition: all 0.1s ease-in 0s;
+	transition: all 0.1s ease-in 0s;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+#logoAlgar {
+	margin-top: 24px;
+	margin-right: 20px;
+	margin-left: 98px;
+}
+
+header p {
+	margin-top: 33px;
+	text-transform: uppercase;
+}
+
+#logoMaes {
+	margin-top: 20px;
+}
+
+.info {
+	margin-left: 235px;
+	background: #00a651e6;
+	border-radius: 10px;
+	color: white;
+	padding: 20px;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.bg div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.bg div img {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+@media (min-width: 300px) and (max-width: 370px) {
+	body {
+		background: none;
+		background-color: #e0e0e0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	main {
+		background: none;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		text-shadow: none!important;
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 900!important;
+	}
+	.bg img {
+		height: 100%!important;
+		width: auto!important;
+	}
+	#logoAlgar {
+		margin-top: 0px;
+		margin-right: 20px;
+		margin-left: 4px;
+	}
+	header p {
+		margin-top: 33px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+	#logoMaes {
+		margin-top: 350px;
+		margin-left: 0px;
+	}
+	.info {
+		margin-left: 0px;
+		margin-top: 60px;
+		max-width: 100%;
+	}
+	/**/
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+		width: 100%!important;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	.col-md-3 {
+		margin-top: 30px;
+		margin-left: 0px!important;
+		background-color: #fff;
+		margin-bottom: 15px;
+		padding: 15px!important;
+		margin-right: 0!important
+	}
+	.col-md-3 p {
+		font-size: 16px;
+	}
+	#nomeArquivo {
+		width: 120px;
+	}
+	button {
+		display: block;
+		width: 94%;
+	}
+}
+
+@media (min-width: 371px) and (max-width: 400px) {
+	body {
+		background: none;
+		background-color: #e0e0e0;
+		overflow-y: scroll;
+		overflow-x: hidden!important;
+	}
+	main {
+		background: none;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		text-shadow: none!important;
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 900!important;
+	}
+	.bg {
+		overflow-x: hidden;
+	}
+	.bg img {
+		height: 100%!important;
+		width: auto!important;
+	}
+	#logoAlgar {
+		margin-top: 0px;
+		margin-right: 20px;
+		margin-left: 4px;
+	}
+	header p {
+		margin-top: 33px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+	#logoMaes {
+		margin-top: 300px;
+		margin-left: 0px;
+	}
+	.info {
+		margin-left: 0px;
+		margin-top: 60px;
+		max-width: 100%;
+	}
+	/**/
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+		width: 100%!important;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	.col-md-3 {
+		margin-top: 30px;
+		margin-left: 0px!important;
+		background-color: #fff;
+		margin-bottom: 15px;
+		padding: 15px!important;
+		margin-right: 0!important
+	}
+	.col-md-3 p {
+		font-size: 16px;
+	}
+	#nomeArquivo {
+		width: 120px;
+	}
+	button {
+		display: block;
+		width: 94%;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 991px) {
+	body {
+		background: none;
+		background-color: #e0e0e0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	main {
+		background: none;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		text-shadow: none!important;
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 900!important;
+	}
+	.bg {
+		overflow-x: hidden;
+	}
+	.bg img {
+		height: 100%!important;
+		width: auto!important;
+	}
+	#logoAlgar {
+		margin-top: 0px;
+		margin-right: 20px;
+		margin-left: 44px;
+	}
+	header p {
+		margin-top: 33px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+	#logoMaes {
+		margin-top: 400px;
+		margin-left: 0px;
+		max-width: 100%;
+	}
+	.info {
+		margin-left: 0px;
+		margin-top: 90px;
+		max-width: 100%;
+	}
+	/**/
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+		width: 100%!important;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	.col-md-3 {
+		margin-top: 30px;
+		margin-left: 0px!important;
+		background-color: #fff;
+		margin-bottom: 15px;
+		padding: 15px!important;
+		margin-right: 0!important
+	}
+	.col-md-3 p {
+		font-size: 16px;
+	}
+	#nomeArquivo {
+		width: 120px;
+	}
+	button {
+		display: block;
+		width: 94%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	body {
+		background: none;
+		background-color: #e0e0e0;
+	}
+	#logoAlgar {
+		margin-top: 24px;
+		margin-right: 20px;
+		margin-left: 98px;
+	}
+	header p {
+		margin-top: 33px;
+		text-transform: uppercase;
+	}
+	#logoMaes {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	.info {
+		margin-left: 185px;
+	}
+	/**/
+	/* .col-md-3 {
+		margin-top: -540px;
+		margin-left: 190px;
+		padding-left: 0!important;
+		margin-right: 0!important;
+		padding-right: 0!important;
+	} */
+	.col-md-3 p {
+		font-size: 16px;
+	}
+	#nomeArquivo {
+		width: 100px;
+	}
+	#hidden-content {
+		max-width: 60%;
+		margin-top: 0 auto;
+	}
+}
+
+@media (min-width: 1021px) and (max-width: 1380px) {
+	body {
+		background: none;
+		background-color: #e0e0e0;
+	}
+	#logoAlgar {
+		margin-top: 24px;
+		margin-right: 20px;
+		margin-left: 98px;
+	}
+	header p {
+		margin-top: 33px;
+		text-transform: uppercase;
+	}
+	#logoMaes {
+		margin-top: 20px;
+		margin-left: 90px;
+	}
+	.info {
+		margin-left: 285px;
+	}
+	/**/
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	.col-md-3 {
+		margin-top: -180px;
+		margin-left: -150px!important;
+		padding-left: 0!important;
+		margin-right: 0!important;
+		padding-right: 0!important
+	}
+	.col-md-3 p {
+		font-size: 16px;
+	}
+	#nomeArquivo {
+		width: 180px;
+	}
+	#hidden-content {
+		max-width: 60%;
+		margin-top: 0 auto;
+	}
+}
+
+@media (min-width: 1381px) and (max-width: 1600px) {
+	body {
+		background: none;
+		background-color: #e0e0e0;
+	}
+	#logoAlgar {
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-left: 148px;
+		max-width: 40%
+	}
+	header p {
+		margin-top: 33px;
+		text-transform: uppercase;
+	}
+	#logoMaes {
+		margin-top: 20px;
+		margin-left: 120px;
+		max-width: 80%;
+	}
+	.info {
+		margin-left: 335px;
+		max-width: 30%;
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	/* .col-md-3 {
+		margin-top: -75px;
+		margin-left: 0px!important;
+		padding-left: 0!important;
+		margin-right: 25px!important;
+		padding-right: 0!important;
+	} */
+	.col-md-3 p {
+		font-size: 16px;
+	}
+	#nomeArquivo {
+		width: 180px;
+	}
+	#hidden-content {
+		max-width: 60%;
+		margin-top: 0 auto;
+	}
+}
