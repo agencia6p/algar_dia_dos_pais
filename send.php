@@ -56,7 +56,7 @@ if(isset($_POST['nome'])){
 		$erro .= "O campo de Vídeo está vazio. Por favor selecione seu vídeo para participar da campanha. \n";
 	}*/
 
-	if(!empty($_FILES['arquivo']){
+	if(!empty($_FILES['arquivo'])){
 		if($_FILES['arquivo']['size'] > 17825792){
 			$erro .= "O arquivo selecionado ultrapassa o limite de 15MB. Por favor, selecione um arquivo de até 15MB. \n";
 		}
@@ -96,7 +96,7 @@ if(isset($_POST['nome'])){
 
 			//**//
 
-			if(!empty($_FILES['arquivo']){
+			if(!empty($_FILES['arquivo'])){
 				$arquivo  = Array();
 				$arquivo  = $_FILES['arquivo'];    
 	            $novoNome = $cpf."__".$arquivo['name'];
